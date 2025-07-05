@@ -1,2 +1,2 @@
 INSERT INTO Customers("customer_id","customer_name","email","address") VALUES
-(1, 'cole baidoo', 'cbaidoo@sandtech.com', '123 Happiness AVE.');
+(1, 'Cole Baidoo', 'cbaidoo@sandtech.com', '123 Happiness AVE.');
