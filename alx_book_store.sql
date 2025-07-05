@@ -13,7 +13,7 @@ CREATE TABLE Books (
     publication_date DATE,
     FOREIGN KEY (author_id) REFERENCES Authors(author_id)
 );
-CREATE TABLE Customer (
+CREATE TABLE Customers (
     customer_id INT AUTO_INCREMENT PRIMARY KEY,
     customer_name VARCHAR(130) NOT NULL,
     email VARCHAR(215) UNIQUE NOT NULL,
